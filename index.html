@@ -1,19 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Solution</title>
-</head>
-<body>
-    <header>
+    <link rel="shortcut icon" href="images/business.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c6650762f2.js" crossorigin="anonymous"></script>
+        <!-- tailwind and daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!-- customize style -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- font EB Garamond and Poppins -->
+    <style>
+        .eb-garamond{
+            font-family: 'EB Garamond', serif;
+        }
+        .poppins{
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 
+</head>
+
+<body>
+    <header class="mx-48">
+        <!-- navber -->
+        <div class="navbar bg-base-100 poppins">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-normal text-[#707070] ">
+                  <li><a>Home</a></li>
+                  <li><a>Services<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a>Cases<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a>Blog<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a>Contact Us<i class="fa-solid fa-chevron-right"></i></a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost normal-case text-xl">
+                <img src="images/logo2.png" alt="Justice"></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 font-normal text-[#707070]">
+                <li><a>Home</a></li>
+                  <li><a>Services<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a>Cases<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a>Blog<i class="fa-solid fa-chevron-right"></i></a></li>
+                  <li><a>Contact Us<i class="fa-solid fa-chevron-right"></i></a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn text-base font-semibold text-white bg-[#B68C5A] rounded-lg">Free Consultation</a>
+            </div>
+          </div>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
